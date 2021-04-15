@@ -8,16 +8,43 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate><atom:link href="https://benjalira6.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Proyecto-RG</title>
+      <title>1.1 - Proyecto RuderGoldberg</title>
       <link>https://benjalira6.github.io/docs/proyecto-rg/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://benjalira6.github.io/docs/proyecto-rg/</guid>
-      <description>Contenido del Proyecto-RG con Hugo</description>
+      <description>Contenido del Proyecto RuderGoldber - Referente</description>
     </item>
     
     <item>
-      <title>Familia de Mobiliario</title>
+      <title>1.1 - Lámpara de lectura</title>
+      <link>https://benjalira6.github.io/docs/lampara_de_lectura/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/docs/lampara_de_lectura/</guid>
+      <description>Lámpara de lectura con materiales recliclados y Arduino - Referente</description>
+    </item>
+    
+    <item>
+      <title>1.2 - Encargo Sillas</title>
+      <link>https://benjalira6.github.io/docs/encargosillas/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/docs/encargosillas/</guid>
+      <description>Investigación sobre fabricación y materiales de sillas a elección</description>
+    </item>
+    
+    <item>
+      <title>1.3 - Familia Encargo Sillas</title>
+      <link>https://benjalira6.github.io/docs/familiaencargosilla/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/docs/familiaencargosilla/</guid>
+      <description>Familia de moblilario manteniendo el concepto de la silla seleccionada</description>
+    </item>
+    
+    <item>
+      <title>1.4 - Familia de Mobiliario - Avance 1</title>
       <link>https://benjalira6.github.io/docs/snakefurniture/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -26,21 +53,30 @@
     </item>
     
     <item>
-      <title>Lámpara de lectura</title>
-      <link>https://benjalira6.github.io/docs/lampara_de_lectura/</link>
+      <title>1.5 - Familia de Mobiliario - Templates</title>
+      <link>https://benjalira6.github.io/docs/snaketemplates/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://benjalira6.github.io/docs/lampara_de_lectura/</guid>
-      <description>Lámpara de lectura con materiales recliclados y Arduino</description>
+      <guid>https://benjalira6.github.io/docs/snaketemplates/</guid>
+      <description>Familia de Mobiliario</description>
     </item>
     
     <item>
-      <title>Encargo Sillas</title>
-      <link>https://benjalira6.github.io/docs/encargosillas/</link>
+      <title>1.6 - Familia de Mobiliario - Final</title>
+      <link>https://benjalira6.github.io/docs/presentacionfinalsnake/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://benjalira6.github.io/docs/encargosillas/</guid>
-      <description>Investigación sobre fabricación y materiales de sillas a elección</description>
+      <guid>https://benjalira6.github.io/docs/presentacionfinalsnake/</guid>
+      <description>Familia de Mobiliario</description>
+    </item>
+    
+    <item>
+      <title>2.1 - Entrevista Chef</title>
+      <link>https://benjalira6.github.io/docs/entrevistachef/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/docs/entrevistachef/</guid>
+      <description>Entrevista a chef profesional como  orientación para un nuevo proyecto gastronómico</description>
     </item>
     
     <item>
