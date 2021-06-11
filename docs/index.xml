@@ -134,21 +134,12 @@
     </item>
     
     <item>
-      <title>Ejemplos Markdown</title>
-      <link>https://benjalira6.github.io/docs/markdown/</link>
+      <title>2.7 - Gastronomía molecular - Presentación final</title>
+      <link>https://benjalira6.github.io/docs/presentacionfinalgm/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://benjalira6.github.io/docs/markdown/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://benjalira6.github.io/docs/ejemplo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://benjalira6.github.io/docs/ejemplo/</guid>
-      <description></description>
+      <guid>https://benjalira6.github.io/docs/presentacionfinalgm/</guid>
+      <description>Gastronomía molecular</description>
     </item>
     
   </channel>
