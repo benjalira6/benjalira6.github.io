@@ -142,5 +142,23 @@
       <description>Gastronomía molecular</description>
     </item>
     
+    <item>
+      <title>3.0 - Pabellón - Investigación</title>
+      <link>https://benjalira6.github.io/docs/investigacionu3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/docs/investigacionu3/</guid>
+      <description>Pabellones paramétricos</description>
+    </item>
+    
+    <item>
+      <title>3.1 - Pabellón - Modelo Final</title>
+      <link>https://benjalira6.github.io/docs/pabellonfinal/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/docs/pabellonfinal/</guid>
+      <description>Pabellones paramétricos</description>
+    </item>
+    
   </channel>
 </rss>
