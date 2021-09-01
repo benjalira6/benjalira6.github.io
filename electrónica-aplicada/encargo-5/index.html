@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Ejercicio 3 - Benjamín Lira - Taller</title>
+  <title>Documental - Benjamín Lira - Taller</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://benjalira6.github.io/favicon.png">
@@ -92,58 +92,34 @@
 
     
     
-<h1 class="title">Ejercicio 3</h1>
+<h1 class="title">Documental</h1>
 <div class="content ">
-  <h2 id="parte-1">Parte 1</h2>
-<p>El funcionamiento del siguiente circuito consiste en la recepción del voltaje enviado por la batería al regulador de 5V para ser regularizar el sistema. Por otro lado, los condensadores polarizados se encargan de la tensión generada.</p>
-<h3 id="esquemático">Esquemático</h3>
-<p><img src="/img/E3b_esquematico.png" alt="Imagen Simple"></p>
-<h3 id="componentes">Componentes</h3>
-<ul>
-<li>Batería 9V</li>
-<li>Regulador 5VLM7805</li>
-<li>Resistencia</li>
-<li>Luz led</li>
-<li>2 Condensadores polarizados</li>
-</ul>
-<h3 id="simulador">Simulador</h3>
-<div>
-    <iframe 
-    src='https://www.tinkercad.com/embed/h8dV39l6yYb?editbtn=1'
-    width="100%" 
-    height="450" 
-    allowfullscreen="true" 
-    webkitallowfullscreen="true" 
-    mozallowfullscreen="true"  
-    frameborder="0">
-    </iframe>    
-</div>
-<hr>
-<h2 id="parte-2">Parte 2</h2>
-<p>El funcionamiento de este circuito consiste en la variación de la cantidad de corriente enviada al led a través de la frecuencia de la onda (modificable por las resistencias) provenientes del chip, generando un parpadeo y siendo regularizado por el potenciómetro.</p>
-<h3 id="esquemático-1">Esquemático</h3>
-<p><img src="/img/E3besquematico.png" alt="Imagen Simple"></p>
-<h3 id="componentes-1">Componentes</h3>
-<ul>
-<li>Bateria 9V</li>
-<li>Chip 555</li>
-<li>3 Resistencias</li>
-<li>Luz led</li>
-<li>Potenciómetro</li>
-<li>Condensador polarizado</li>
-</ul>
-<h3 id="simulador-1">Simulador</h3>
-<div>
-    <iframe 
-    src='https://www.tinkercad.com/embed/a8N59KHIjtX?editbtn=1'
-    width="100%" 
-    height="450" 
-    allowfullscreen="true" 
-    webkitallowfullscreen="true" 
-    mozallowfullscreen="true"  
-    frameborder="0">
-    </iframe>    
-</div>
+  <p>A continuación se observará un breve resumen y análisis del documental &ldquo;How to mine gold from electronics&rdquo;</p>
+
+<iframe id='pdf-hugo' src='/pdf/AnalisisDocumentalEA.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
+<h2 id="contaminación">Contaminación</h2>
+<p>Imagen de un verterdero de componentes electrónicos.</p>
+<p><img src="/img/E5_Desechos.jpg" alt="Imagen Simple"></p>
+<h2 id="máquina-del-proceso">Máquina del proceso</h2>
+<p>La máquina de la imagen corresponde al primer proceso de filtración y, separación de sólidos y líquidos.</p>
+<p><img src="/img/E5_Maquina.png" alt="Imagen Simple"></p>
+<h2 id="gráfico-de-cantidad">Gráfico de cantidad</h2>
+<p>Este gráfico muestra como a medida de los años la cantidad de desecho electrónico ha ido aumentando considerablemente al igual que el impacto ambiental.</p>
+<p><img src="/img/E5_Grafico.png" alt="Imagen Simple"></p>
 
 </div>
 </div>
