@@ -61,5 +61,32 @@
       <description>Arduino</description>
     </item>
     
+    <item>
+      <title>Referentes</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-8/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-8/</guid>
+      <description>Referentes</description>
+    </item>
+    
+    <item>
+      <title>Cachureo electrónico</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-9-cachureo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-9-cachureo/</guid>
+      <description>Componentes electrónicos</description>
+    </item>
+    
+    <item>
+      <title>Juguete electrónico - Esquemático</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-10-juguete/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-10-juguete/</guid>
+      <description>Experimentación y hackeo</description>
+    </item>
+    
   </channel>
 </rss>
