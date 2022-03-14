@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate><atom:link href="https://benjalira6.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>1.0 - Ejercicio 1</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/ejercicio-1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/ejercicio-1/</guid>
+      <description>Experimentación con kit</description>
+    </item>
+    
+    <item>
       <title>1.0 - Proyecto RuderGoldberg</title>
       <link>https://benjalira6.github.io/docs/proyecto-rg/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -17,12 +26,12 @@
     </item>
     
     <item>
-      <title>Ejercicio 1</title>
-      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/ejercicio-1/</link>
+      <title>1.1 - Ejercicio 2</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/ejercicio-1/</guid>
-      <description>Experimentación con kit</description>
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-2/</guid>
+      <description>Experimentción - The real breadboard</description>
     </item>
     
     <item>
@@ -35,21 +44,21 @@
     </item>
     
     <item>
-      <title>Ejercicio 2</title>
-      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-2/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-2/</guid>
-      <description>Experimentción - The real breadboard</description>
-    </item>
-    
-    <item>
       <title>1.2 - Encargo Sillas</title>
       <link>https://benjalira6.github.io/docs/encargosillas/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://benjalira6.github.io/docs/encargosillas/</guid>
       <description>Investigación sobre fabricación y materiales de sillas a elección</description>
+    </item>
+    
+    <item>
+      <title>1.3 - Ejercicio 3</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-3/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-3/</guid>
+      <description>Experimentación - Guía de ejercicios</description>
     </item>
     
     <item>
@@ -62,16 +71,7 @@
     </item>
     
     <item>
-      <title>Ejercicio 3</title>
-      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-3/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-3/</guid>
-      <description>Experimentación - Guía de ejercicios</description>
-    </item>
-    
-    <item>
-      <title>Ejercicio 4</title>
+      <title>1.4 - Ejercicio 4</title>
       <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encaro-4/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -89,7 +89,7 @@
     </item>
     
     <item>
-      <title>Documental</title>
+      <title>1.5 - Documental</title>
       <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-5/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -98,7 +98,7 @@
     </item>
     
     <item>
-      <title>Ejercicios</title>
+      <title>1.6 - Ejercicios</title>
       <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-7/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
@@ -125,12 +125,21 @@
     </item>
     
     <item>
-      <title>Referentes</title>
+      <title>1.7 - Referentes</title>
       <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-8/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-8/</guid>
       <description>Referentes</description>
+    </item>
+    
+    <item>
+      <title>1.8 - Cachureo electrónico</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-9-cachureo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-9-cachureo/</guid>
+      <description>Componentes electrónicos</description>
     </item>
     
     <item>
@@ -143,12 +152,12 @@
     </item>
     
     <item>
-      <title>Cachureo electrónico</title>
-      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-9-cachureo/</link>
+      <title>1.9 - Juguete electrónico - Esquemático</title>
+      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-10-juguete/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-9-cachureo/</guid>
-      <description>Componentes electrónicos</description>
+      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-10-juguete/</guid>
+      <description>Experimentación y hackeo</description>
     </item>
     
     <item>
@@ -158,15 +167,6 @@
       
       <guid>https://benjalira6.github.io/docs/encargo1recap/</guid>
       <description>Creación de un objeto 3D a través del procesamiento de fotos</description>
-    </item>
-    
-    <item>
-      <title>Juguete electrónico - Esquemático</title>
-      <link>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-10-juguete/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://benjalira6.github.io/electr%C3%B3nica-aplicada/encargo-10-juguete/</guid>
-      <description>Experimentación y hackeo</description>
     </item>
     
     <item>
