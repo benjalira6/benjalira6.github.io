@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>1.6 - Ejercicios - Benjamín Lira - Taller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://benjalira6.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.af4d775923fecb34e1dba93a0a1f15a1be52117a7fd9ba132b6c401816d3a6f7.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-taller de productos">
+      <a href="/docs/">
+        <span>Taller de productos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-electrónica aplicada">
+      <a href="/electr%C3%B3nica-aplicada/">
+        <span>Electrónica aplicada</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-interfaces">
+      <a href="/interfaces/">
+        <span>Interfaces</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://benjalira6.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://benjalira6.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-taller de productos">
+      <a href="/docs/">
+        <span>Taller de productos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-electrónica aplicada">
+      <a href="/electr%C3%B3nica-aplicada/">
+        <span>Electrónica aplicada</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-interfaces">
+      <a href="/interfaces/">
+        <span>Interfaces</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+
+    
+    
+<h1 class="title">1.6 - Ejercicios</h1>
+<div class="content ">
+  <h2 id="circuitos-con-leds-blink">Circuitos con LEDs: Blink</h2>
+<p>Este circuito simple consiste en un código para encender la LED durante un periodo de tiempo. En este caso se encenderá en 1 segundo y se apagará en 1 segundo, repitiendo el proceso.</p>
+<p><img src="/img/Blinks.png" alt="Imagen Simple"></p>
+<h3 id="componentes">Componentes</h3>
+<ul>
+<li>Placa Arduino</li>
+<li>Resistencia</li>
+<li>LED</li>
+</ul>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/VideoBlink.mp4"  type="video/mp4">
+    </video>
+</div>
+<h3 id="código">Código</h3>
+<p>void setup() {
+pinMode(13, OUTPUT);</p>
+<p>}</p>
+<p>void loop() {
+digitalWrite(13, HIGH);
+delay(1000);
+digitalWrite(13, LOW);
+delay(1000);</p>
+<p>}</p>
+<hr>
+<h2 id="potenciómetro">Potenciómetro</h2>
+<p>Este ejercicio consiste en el encendido del LED mediante un potenciómetro, regulando la corriente.</p>
+<p><img src="/img/POTENCIOMETRO2.png" alt="Imagen Simple"></p>
+<h3 id="componentes-1">Componentes</h3>
+<ul>
+<li>Placa Arduino</li>
+<li>Resistencia</li>
+<li>LED</li>
+<li>Potenciómetro</li>
+</ul>
+<h3 id="código-1">Código</h3>
+<p>int sensorPin = A0;
+int ledPin = 13;</p>
+<p>void setup() {
+// put your setup code here, to run once:
+pinMode(ledPin, OUTPUT);
+}</p>
+<p>void loop() {
+int sensorValue;
+sensorValue = analogRead(sensorPin);
+digitalWrite(ledPin, HIGH);
+delay(sensorValue);
+digitalWrite(ledPin, LOW);
+delay(sensorValue);
+}</p>
+<hr>
+<h2 id="led-rgb">LED RGB</h2>
+<p>Este ejercicio consiste en un código que ordenará al LED RGB  a encenderse en diferentes momentos y en diferentes colores.</p>
+<p><img src="/img/LEDRGBB.png" alt="Imagen Simple"></p>
+<h3 id="componentes-2">Componentes</h3>
+<ul>
+<li>Placa Arduino</li>
+<li>3 Resistencias</li>
+<li>LED RGB</li>
+</ul>
+<h3 id="código-2">Código</h3>
+<p>const int RED_PIN = 9;
+const int GREEN_PIN = 10;
+const int BLUE_PIN = 11;</p>
+<p>int DISPLAY_TIME = 100; //In miliseconds</p>
+<p>void setup() {
+pinMode(RED_PIN, OUTPUT);
+pinMode(GREEN_PIN, OUTPUT);
+pinMode(BLUE_PIN, OUTPUT);</p>
+<p>}</p>
+<p>void loop() {
+digitalWrite(RED_PIN, HIGH);
+digitalWrite(GREEN_PIN, LOW);
+digitalWrite(BLUE_PIN, LOW);
+delay(1000);</p>
+<p>digitalWrite(RED_PIN, LOW);
+digitalWrite(GREEN_PIN, HIGH);
+digitalWrite(BLUE_PIN, LOW);
+delay(1000);</p>
+<p>digitalWrite(RED_PIN, LOW);
+digitalWrite(GREEN_PIN, LOW);
+digitalWrite(BLUE_PIN, HIGH);
+delay(1000);</p>
+<p>}</p>
+<hr>
+<h2 id="múltiples-leds">Múltiples LEDs</h2>
+<p>El siguiente código consiste en el encendido de múltiples luces LED en un determinado tiempo.</p>
+<p><img src="/img/MultiplesLeds.png" alt="Imagen Simple"></p>
+<h3 id="componentes-3">Componentes</h3>
+<ul>
+<li>Placa Arduino</li>
+<li>8 Resistencias</li>
+<li>8 luces LED</li>
+</ul>
+<h3 id="código-3">Código</h3>
+<p>int ledPins[] = {2,3,4,5,6,7,8,9};</p>
+<p>void setup() {
+int index;
+for(index = 0; index &lt;= 7; index++)
+{
+pinMode(ledPins[index], OUTPUT);
+}
+}</p>
+<p>void loop() {
+int index;
+int delayTime = 100; // milliseconds to pause</p>
+<p>for(index = 0;index &lt;= 7; index++)
+{
+digitalWrite(ledPins[index], HIGH); // turn LED on
+delay(delayTime);
+digitalWrite(ledPins[index], LOW); // turn LED off
+}</p>
+<p>}</p>
+<hr>
+<h2 id="led--ldr">LED + LDR</h2>
+<p><img src="/img/LedLDR.png" alt="Imagen Simple"></p>
+<h3 id="componentes-4">Componentes</h3>
+<ul>
+<li>Placa Arduino</li>
+<li>2 Resistencias</li>
+<li>LED</li>
+<li>LDR</li>
+</ul>
+<h3 id="código-4">Código</h3>
+<p>const int sensorPin = 0;
+const int ledPin = 9;</p>
+<p>int lightLevel;</p>
+<p>void setup() {
+{
+pinMode(ledPin, OUTPUT);
+}
+}</p>
+<p>void loop() {
+{
+lightLevel = analogRead(sensorPin);
+analogWrite(ledPin, lightLevel);
+}
+}</p>
+
+</div>
+</div>
+
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
